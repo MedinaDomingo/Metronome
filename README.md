@@ -1,1 +1,1 @@
-Metrónome  Una aplicación web de metrónomo interactivo que permite ajustar el tempo (BPM) y seleccionar diferentes compases (4/4, 3/4, 6/8, 2/4), muestra los beats activos y reproduce sonidos diferentes para el primer beat y los beats subsiguientes.
+#Metrónome  Una aplicación web de metrónomo interactivo que permite ajustar el tempo (BPM) y seleccionar diferentes compases (4/4, 3/4, 6/8, 2/4), muestra los beats activos y reproduce sonidos diferentes para el primer beat y los beats subsiguientes.
