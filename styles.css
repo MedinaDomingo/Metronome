@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.metronome {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bpm-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#bpm-slider {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls label {
+    font-size: 1.2em;
+}
+
+.controls select {
+    font-size: 1em;
+    padding: 5px;
+}
+
+.start-stop {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.beats {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.beat {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.beat.active {
+    background-color: #007bff;
+}
+
+.beat.first-beat.active {
+    background-color: #ff0000; /* Color diferente para el primer beat */
+}

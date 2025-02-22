@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metronome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="metronome">
+        <h1>Metronome</h1>
+        <div class="bpm-display">
+            <span class="bpm">120</span> BPM
+        </div>
+        <input type="range" id="bpm-slider" min="40" max="218" value="120">
+        <div class="controls">
+            <label for="time-signature">Compás:</label>
+            <select id="time-signature">
+                <option value="4">4/4</option>
+                <option value="3">3/4</option>
+                <option value="6">6/8</option>
+                <option value="2">2/4</option>
+            </select>
+        </div>
+        <div class="start-stop" id="start-stop">Start</div>
+        <div class="beats">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
